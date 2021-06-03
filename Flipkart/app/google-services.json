@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "529240245187",
+    "project_id": "flipkart-1eee7",
+    "storage_bucket": "flipkart-1eee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529240245187:android:fa79fb979265d787b1b376",
+        "android_client_info": {
+          "package_name": "com.ecart.flipkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529240245187-r7kdihcvmpekb4plgsj0fn2t5r245mv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecart.flipkart",
+            "certificate_hash": "6bf4753899d0c9db2c313ad36ef7b52638e58449"
+          }
+        },
+        {
+          "client_id": "529240245187-nkrlbu047njcbi26v5gd0p4f72ajtvea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yWdrsqX1ehIttWAvQQEjEqOgJ_lpHdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529240245187-nkrlbu047njcbi26v5gd0p4f72ajtvea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

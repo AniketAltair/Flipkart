@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/app_slogan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="260dp"
+        android:text="Happy Online Shopping"
+        android:gravity="center"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/main_join_now_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_logo" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttons"
+        android:text="SignIn"
+        android:textAllCaps="false"
+        android:textColor="#FAF6F6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_join_now_btn" />
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="336dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/input_design"
+        android:text="Join Now"
+        android:textAllCaps="false"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/main_login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_slogan" />
+</androidx.constraintlayout.widget.ConstraintLayout>
